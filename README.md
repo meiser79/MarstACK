@@ -24,12 +24,12 @@ I would recommend not doing any blind firmware updates as breakage is likely.
 ### Prerequisites
 In order for this to work you must configure your DNS resolver to return your local server's IP for the domain eu.hamedata.com instead of the actual cloud server IP.
 
-There is a [MarstACK Wiki](https://github.com/fignew/MarstACK/wiki) with instructions on how to configure various routers.
+There is a [MarstACK Wiki](https://github.com/meiser79/MarstACK/wiki) with instructions on how to configure various routers.
 
 ### Running hosted image in Docker/Podman
 
 ```
-  docker run -p 80:8000 ghcr.io/fignew/marstack:latest
+  docker run -p 80:8000 meiser79/marstack:latest
 ```
 
 ### Running with docker-compose

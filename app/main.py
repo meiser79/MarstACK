@@ -51,10 +51,6 @@ async def marstack_homepage(request: Request):
         else "In order for your batteries to work offline you must configure your network's DNS. Check out the Wiki."
     }*
 
-[MarstACK Github](https://www.github.com/fignew/MarstACK)
-
-[MarstACK DNS Configuration Wiki](https://github.com/fignew/MarstACK/wiki)
-
 [API Endpoint Documentation](/redoc)
 """
     html_content = markdown.markdown(md_text)
